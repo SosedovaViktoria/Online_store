@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Automatic coffee machine GARLYN L1000, silver",
+    "brand": "GARLYN",
+    "type": "coffee machine",
+    "price": 41900,
+    "quantity": 6,
+    "img": [{
+      "first": "./assets/img/6295671364.webp",
+      "second": "./assets/img/6295598320.webp",
+      "thirt": "./assets/img/6295598321.webp",
+      "fourt": "./assets/img/6295603800.webp"}],
+    "url": "coffee_machine_1",
+    "description": [
+      {
+        "section1": [
+          "The GARLYN L1000 grain coffee machine with a built-in cappuccinatore is not just a compact assistant that can make the morning good and cheerful, but a real barista in your home. Enjoy preparing your favorite beverages with just one touch and hassle-free.",
+          "All the taste and aroma of coffee - in your cup",
+          "The secret of real coffee is in freshly ground beans, optimal water temperature and a high-quality pump. Thanks to the GARLYN L1000, you can enjoy real espresso without leaving your home. The built-in coffee grinder grinds coffee beans right before preparation, and the pump with a pressure of 19 bar will maximize the full taste and aroma of espresso.",
+          "Cappuccino and latte - at the touch of a button",
+          "The automatic cappuccinatore and capacious milk tank are designed to froth thick milk quickly and easily. And the built-in automatic programs for preparing drinks allow you to do this with one touch.",
+          "Personal barista",
+          "GARLYN L1000 will not only prepare drinks on its own, but will also easily remember your preferences. Program the volume and proportions of milk foam and coffee in your favorite drinks, and the coffee machine will remember the settings to delight you with a personalized perfect drink every morning. Choose the optimal grind for your favorite coffees by adjusting the coffee grinder settings. Choose the strength of drinks to your taste with one touch.",
+          "Extremely compact",
+          "Do not worry that the coffee machine takes up a lot of space - with the GARLYN L1000 this is not at all the case. This assistant has a truly compact body and can easily fit even in the most compact kitchen.",
+          "Auto cleaning and display system",
+          "The modern touch control system allows not only to select drinks, but also to launch the function of quick cleaning of internal elements. With no extra effort, you can clean the coffee machine after repeated use with one touch. In addition to the control keys, the panel displays indicators of lack of water, grains, overload of the cake compartment and others.",
+          "Comfort in every detail",
+          "Use cups of different sizes by adjusting the height of the dispenser. No splatter when serving even in a very small cup and the ability to prepare large portions of latte with great convenience. Illumination of the cups allows you to observe the process of serving, enjoying the perfect consistency of your favorite drinks."
+        ],
+        "section2": {
+          "h3": "Main",
+          "desc": [
+            "Type of coffee used",
+            "Grain",
+            "Max. pressure, bar",
+            "19",
+            "Types of drinks",
+            "Cappuccino, Latte, Espresso",
+            "Power, W",
+            "1470",
+            "Beverage preparation: Coffee strength control, Coffee pre-wetting, Adjusting the amount of water, Adjusting the grinding degree"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Inhouse coffee machine capsule and carob, Multicoffee 2in1 series, color beige",
+    "brand": "inhouse",
+    "type": "coffee machine",
+    "price": 6474,
+    "quantity": 21,
+    "img": [{
+      "first": "./assets/img/6295671364.webp",
+      "second": "./assets/img/6295598320.webp",
+      "thirt": "./assets/img/6295598321.webp",
+      "fourt": "./assets/img/6295603800.webp"}],
+    "url": "coffee_machine_1",
+    "description": [
+      {
+        "section1": [
+          "The GARLYN L1000 grain coffee machine with a built-in cappuccinatore is not just a compact assistant that can make the morning good and cheerful, but a real barista in your home. Enjoy preparing your favorite beverages with just one touch and hassle-free.",
+          "All the taste and aroma of coffee - in your cup",
+          "The secret of real coffee is in freshly ground beans, optimal water temperature and a high-quality pump. Thanks to the GARLYN L1000, you can enjoy real espresso without leaving your home. The built-in coffee grinder grinds coffee beans right before preparation, and the pump with a pressure of 19 bar will maximize the full taste and aroma of espresso.",
+          "Cappuccino and latte - at the touch of a button",
+          "The automatic cappuccinatore and capacious milk tank are designed to froth thick milk quickly and easily. And the built-in automatic programs for preparing drinks allow you to do this with one touch.",
+          "Personal barista",
+          "GARLYN L1000 will not only prepare drinks on its own, but will also easily remember your preferences. Program the volume and proportions of milk foam and coffee in your favorite drinks, and the coffee machine will remember the settings to delight you with a personalized perfect drink every morning. Choose the optimal grind for your favorite coffees by adjusting the coffee grinder settings. Choose the strength of drinks to your taste with one touch.",
+          "Extremely compact",
+          "Do not worry that the coffee machine takes up a lot of space - with the GARLYN L1000 this is not at all the case. This assistant has a truly compact body and can easily fit even in the most compact kitchen.",
+          "Auto cleaning and display system",
+          "The modern touch control system allows not only to select drinks, but also to launch the function of quick cleaning of internal elements. With no extra effort, you can clean the coffee machine after repeated use with one touch. In addition to the control keys, the panel displays indicators of lack of water, grains, overload of the cake compartment and others.",
+          "Comfort in every detail",
+          "Use cups of different sizes by adjusting the height of the dispenser. No splatter when serving even in a very small cup and the ability to prepare large portions of latte with great convenience. Illumination of the cups allows you to observe the process of serving, enjoying the perfect consistency of your favorite drinks."
+        ],
+        "section2": {
+          "h3": "Main",
+          "desc": [
+            "Type of coffee used",
+            "Grain",
+            "Max. pressure, bar",
+            "19",
+            "Types of drinks",
+            "Cappuccino, Latte, Espresso",
+            "Power, W",
+            "1470",
+            "Beverage preparation: Coffee strength control, Coffee pre-wetting, Adjusting the amount of water, Adjusting the grinding degree"
+          ]
+        }
+      }
+    ]
+  },
+]

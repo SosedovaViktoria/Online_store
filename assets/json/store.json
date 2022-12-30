@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Automatic coffee machine GARLYN L1000, silver",
     "brand": "GARLYN",
     "type": "coffee machine",
@@ -13,7 +14,7 @@
     "url": "coffee_machine_1",
     "description": [
       {
-        "section1": [
+        "article": [
           "The GARLYN L1000 grain coffee machine with a built-in cappuccinatore is not just a compact assistant that can make the morning good and cheerful, but a real barista in your home. Enjoy preparing your favorite beverages with just one touch and hassle-free.",
           "All the taste and aroma of coffee - in your cup",
           "The secret of real coffee is in freshly ground beans, optimal water temperature and a high-quality pump. Thanks to the GARLYN L1000, you can enjoy real espresso without leaving your home. The built-in coffee grinder grinds coffee beans right before preparation, and the pump with a pressure of 19 bar will maximize the full taste and aroma of espresso.",
@@ -28,7 +29,7 @@
           "Comfort in every detail",
           "Use cups of different sizes by adjusting the height of the dispenser. No splatter when serving even in a very small cup and the ability to prepare large portions of latte with great convenience. Illumination of the cups allows you to observe the process of serving, enjoying the perfect consistency of your favorite drinks."
         ],
-        "section2": {
+        "section": {
           "h3": "Main",
           "desc": [
             "Type of coffee used",
@@ -46,46 +47,213 @@
     ]
   },
   {
+    "id": 3,
+    "name": "Delimano Espresso Deluxe coffee machine",
+    "brand": "Delimano",
+    "type": "coffee machine",
+    "price": 14999,
+    "quantity": 14,
+    "img": [{
+      "first": "./assets/img/6495376593.webp",
+      "second": "./assets/img/6484490137.webp",
+      "thirt": "./assets/img/6484490141.webp",
+      "fourt": "./assets/img/6484490140.webp"}],
+    "url": "coffee_machine_3",
+    "description": [
+      {
+        "article": [
+          "The Delimano Espresso Deluxe coffee machine simplicity and speed. Prepare thick golden espresso, latte and flat white with frothed milk. Enjoy your favorite drinks! Prepare an espresso with a gentle crema in seconds. The 1100W Delimano Espresso Deluxe coffee machine is your personal barista that will brew aromatic coffee without bitterness in seconds. The carob-type coffee maker with a built-in thermometer and pump creates a pressure of 20 bar so that the taste of the prepared coffee is impeccable.",
+          "Automatic coffee machine, capsule coffee machine and carob machine are designed to save time and convenience in making coffee. Delimano kitchen appliances take care of your comfort and your free time. No need to stand over the stove and make sure that the drink does not run away and burn. The control is carried out using three buttons and one relay for setting the steam supply. A capacious water container with a volume of 1250 ml will allow you to enjoy your favorite grain drink both with your family and in a large company of friends and colleagues. The drip tray is easy to remove, wash and reinstall. The device of the sieve-filter for the horn provides for the distribution of coffee for 2 cups at the same time. A measuring spoon is included in the package. A manual cappuccino maker will help you make a stable milk foam for cappuccino and other drinks. Preheating cups will reveal the full taste and aroma of the drink. Forget about replacement filters, the removable double-walled filter is easy to clean, if you use a mechanical coffee grinder for the kitchen, the filter will handle any coffee grind. The advantage of carob coffee machines is simplicity and ease of use. Household appliances for the kitchen, devices for the kitchen",
+          "You can control every step of the process, from preheating the cup to creating a creamy froth, and the result is the perfect espresso, just like in the best coffee shops. The coffee machine is easy to use and has an automatic shutdown after 25 minutes of inactivity.",
+          "The central part of the front panel is occupied by a large round thermometer. This touch of retro design is not only for beauty. The thermometer will tell you the temperature of the water in the coffee machine's boiler.",
+          "The Delimano Espresso Deluxe coffee machine has a simple and intuitive control panel. Next to the built-in thermometer there are three buttons with indication (on, milk frothing, coffee brewing).",
+          "Immerse the cappuccino maker (steam tube) in cold milk, turn on the steam supply with the relay and quickly froth milk for cappuccino and other drinks. The relay helps to control the intensity of steam supply. In the preparation of drinks with the help of a cappuccinatore, you can not only froth milk, but also prepare hot chocolate, heat tea or water!",
+          "From one to four medium-sized cups can be placed on top of the coffee machine. Stylish stainless steel railing keeps them from falling and breaking. Real espresso is poured into a heated cup, so true coffee connoisseurs will appreciate this additional feature. The device is capable of serving a drink in two cups at once; the device is equipped with a special sieve filter for two servings. This double-walled stainless steel accessory is responsible for the quality brewing of ground coffee.",
+          "A capacious water container with a volume of 1250 ml will allow you to enjoy your favorite grain drink both with your family and in a large company of friends and colleagues. This volume is enough to prepare 12 cups of drink!",
+          "The tamper spoon is an indispensable item in making coffee. Used for tamping ground coffee and as a measuring spoon. Coffee lovers and connoisseurs can use special tablets made from pressed ground coffee - ESE pods. This is a ready-made portion in a special paper bag. To prepare coffee, simply place the pod in the horn of the coffee machine and press the button. No waste is generated in the pods during the brewing process. Fast and easy cleaning. Removable drip tray, cappuccinatore spout and sieve filter save time on keeping the appliance clean. These accessories can be easily removed and washed under running water.",
+          "The Delimano Espresso Deluxe carob coffee machine combines elegant design, exceptional quality and ease of use. The rozhkovy coffee machine will allow to make morning awakening full and pleasant. Prepare espresso with a nutty foam and an amazing aroma, or create many other delicious coffee drinks based on it: cappuccino, latte, macchiato, glace. Add cinnamon, chocolate, draw on milk foam!"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of coffee used",
+            "Pods, ground",
+            "Max. pressure, bar",
+            "twenty",
+            "Types of drinks",
+            "Cappuccino, Latte, Flat White, Espresso, Milk Foam",
+            "Power, W",
+            "1100",
+            "Preparing a drink",
+            "Cup warmer, Beverage temperature setting"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Inhouse coffee machine capsule and carob, Multicoffee 2in1 series, color beige",
     "brand": "inhouse",
     "type": "coffee machine",
     "price": 6474,
     "quantity": 21,
     "img": [{
-      "first": "./assets/img/6295671364.webp",
-      "second": "./assets/img/6295598320.webp",
-      "thirt": "./assets/img/6295598321.webp",
-      "fourt": "./assets/img/6295603800.webp"}],
-    "url": "coffee_machine_1",
+      "first": "./assets/img/6418257213.webp",
+      "second": "./assets/img/6418257217.webp",
+      "thirt": "./assets/img/6418257211.webp",
+      "fourt": "./assets/img/6418257212.webp"}],
+    "url": "coffee_machine_2",
     "description": [
       {
-        "section1": [
-          "The GARLYN L1000 grain coffee machine with a built-in cappuccinatore is not just a compact assistant that can make the morning good and cheerful, but a real barista in your home. Enjoy preparing your favorite beverages with just one touch and hassle-free.",
-          "All the taste and aroma of coffee - in your cup",
-          "The secret of real coffee is in freshly ground beans, optimal water temperature and a high-quality pump. Thanks to the GARLYN L1000, you can enjoy real espresso without leaving your home. The built-in coffee grinder grinds coffee beans right before preparation, and the pump with a pressure of 19 bar will maximize the full taste and aroma of espresso.",
-          "Cappuccino and latte - at the touch of a button",
-          "The automatic cappuccinatore and capacious milk tank are designed to froth thick milk quickly and easily. And the built-in automatic programs for preparing drinks allow you to do this with one touch.",
-          "Personal barista",
-          "GARLYN L1000 will not only prepare drinks on its own, but will also easily remember your preferences. Program the volume and proportions of milk foam and coffee in your favorite drinks, and the coffee machine will remember the settings to delight you with a personalized perfect drink every morning. Choose the optimal grind for your favorite coffees by adjusting the coffee grinder settings. Choose the strength of drinks to your taste with one touch.",
-          "Extremely compact",
-          "Do not worry that the coffee machine takes up a lot of space - with the GARLYN L1000 this is not at all the case. This assistant has a truly compact body and can easily fit even in the most compact kitchen.",
-          "Auto cleaning and display system",
-          "The modern touch control system allows not only to select drinks, but also to launch the function of quick cleaning of internal elements. With no extra effort, you can clean the coffee machine after repeated use with one touch. In addition to the control keys, the panel displays indicators of lack of water, grains, overload of the cake compartment and others.",
-          "Comfort in every detail",
-          "Use cups of different sizes by adjusting the height of the dispenser. No splatter when serving even in a very small cup and the ability to prepare large portions of latte with great convenience. Illumination of the cups allows you to observe the process of serving, enjoying the perfect consistency of your favorite drinks."
+        "article": [
+          "Universal capsule coffee machine inhouse multicoffee ICM1907BG is a versatile, convenient and compact solution for coffee lovers.",
+          "The coffee machine comes with 2 adapters: for ground coffee and Nespresso capsules. Experiment with world famous coffee and tea flavors in the most common capsule format, as well as try different varieties and roasts in ground coffee format with just 1 device! In addition, these 2 types of coffee are always available in any store, so you can be sure that you will not be left without a cup of your favorite drink.",
+          "The pump with a pressure of 19 bar ensures the perfect extraction of the coffee and creates a dense foam cream, and the modern technology of the Thermoblock heating element allows you to prepare coffee at the right temperature.",
+          "The coffee machine is simple and at the same time convenient to use. One touch of a button and you will prepare a cup of your favorite espresso or lungo. Serving size can also be adjusted according to preference.",
+          "The removable 0.6 liter water tank is enough for preparing several cups.",
+          "The auto-off feature helps save power, and you don't have to worry if you turn off the device.",
+          "Universal capsule coffee machine inhouse multicoffee ICM1907BG - made in a laconic modern design, discreet beige color, has a compact size, so it fits perfectly into any interior and even a small kitchen."
         ],
-        "section2": {
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of coffee used",
+            "Ground, Capsules",
+            "Max. pressure, bar",
+            "nineteen",
+            "Types of drinks",
+            "Espresso, Espresso lungo",
+            "Power, W",
+            "1450",
+            "Capsule standard",
+            "Nespresso Original",
+            "Preparing a drink",
+            "Coffee strength control, Water dose adjustment"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Automatic coffee machine CASO Cafe Crema Touch",
+    "brand": "CASO",
+    "type": "coffee machine",
+    "price": 35900,
+    "quantity": 3,
+    "img": [{
+      "first": "./assets/img/6099151443.webp",
+      "second": "./assets/img/6099151444.webp",
+      "thirt": "./assets/img/6099151445.webp",
+      "fourt": "./assets/img/6099151446.webp"}],
+    "url": "coffee_machine_4",
+    "description": [
+      {
+        "article": [
+          "Unique coffee machine for making classic coffee drinks. Differs in modest dimensions, but at the same time with a large tank volume (1.2 l) and a coffee grinder volume for 160 grams of grains. The device is equipped with conical millstones made of stainless steel. High quality grinding is ensured by a five-stage regulator.",
+          "For preparation of one portion of \"Espresso\" the device needs only 30 seconds and 9 grams of coffee. Water volume setting from 25 to 250 ml. The use of an automatic cappuccino maker is relevant for whipping milk foam for \"Latte\" and \"Cappuccino\".",
+          "The control is carried out by a touch screen with LED backlight. When there is a shortage of beans, when the coffee grounds container is full, when the brewing unit door is open, or when the appliance needs to be descaled, the LED indicators light up.",
+          "The removable drip tray is attached to the case with magnets. Adjustment of a coffee nozzle is carried out on height to 16 cm. Functions of preliminary wetting of coffee and illumination of a cup are implemented.",
+          "After 20 minutes in standby mode, the equipment turns off. The machine is equipped with an energy-saving and self-cleaning mode. Removable parts of the device need daily rinsing under running water."
+        ],
+        "section": {
           "h3": "Main",
           "desc": [
             "Type of coffee used",
             "Grain",
             "Max. pressure, bar",
-            "19",
+            "nineteen",
             "Types of drinks",
-            "Cappuccino, Latte, Espresso",
+            "Americano, Cappuccino, Latte, Espresso",
             "Power, W",
             "1470",
-            "Beverage preparation: Coffee strength control, Coffee pre-wetting, Adjusting the amount of water, Adjusting the grinding degree"
+            "Preparing a drink",
+            "Pre-wetting coffee, Adjusting the amount of water"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Coffee machine KRUPS EA829810, pressure 15 bar, automatic milk frother, 6 recipes, LCD display",
+    "brand": "KRUPS",
+    "type": "coffee machine",
+    "price": 54999,
+    "quantity": 10,
+    "img": [{
+      "first": "./assets/img/6356511976.webp",
+      "second": "./assets/img/6356511972.webp",
+      "thirt": "./assets/img/6356511970.webp",
+      "fourt": "./assets/img/6356511973.webp"}],
+    "url": "coffee_machine_5",
+    "description": [
+      {
+        "article": [
+          "Krups Lattespress EA829810 coffee machine. Very easy to use and compact model - like all Krups coffee machines. She prepares coffee according to a variety of recipes: espresso, ristretto, cappuccino, latte, latte macchiato, lungo. You can choose the temperature, portion and strength of the drink you need. The automatic cappuccinatore itself is cleaned of milk residues, it works neatly, without splashing.",
+          "Automatic cleaning system of the coffee machine - it is not required to take it apart and wash it by hand, which saves you time, effort and allows you to completely relax with a cup of delicious coffee.",
+          "Choose your drink using the intuitive LCD display and the machine will do the rest. Now you don't have to wait for the milk to froth - the automatic cappuccino maker and a special foaming system inside the coffee machine will create the perfect foam for latte or cappuccino.",
+          "Thanks to the unique patented thermoblock, there is no longer any need for manual cleaning - a special program will allow you to keep your coffee machine clean in automatic mode."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of coffee used",
+            "Grain",
+            "Max. pressure, bar",
+            "fifteen",
+            "Types of drinks",
+            "Double espresso, Cappuccino, Espresso, Espresso lungo",
+            "Power, W",
+            "1450",
+            "Beverage preparation: Coffee strength control, Grinding degree adjustment, Water dose adjustment, Coffee pre-wetting"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Stationary blender Moulinex Eco Respect LM46EN10, black",
+    "brand": "Moulinex",
+    "type": "blender",
+    "price": 6190,
+    "quantity": 50,
+    "img": [{
+      "first": "./assets/img/6288015592.webp",
+      "second": "./assets/img/6105623973.webp",
+      "thirt": "./assets/img/6105623980.webp",
+      "fourt": "./assets/img/6105623988.webp"}],
+    "url": "coffee_machine_5",
+    "description": [
+      {
+        "article": [
+          "Fast grinding",
+          "800W motor for fast and efficient chopping. 2 speeds and pulse mode.",
+          "Optimal results and easy cleaning",
+          "4 stainless steel blades that can also crush ice. They can also be removed for easy cleaning.",
+          "2 speeds and pulse mode",
+          "Helps you get the texture you want.",
+          "Glass bowl 1.75 l",
+          "Pleasant to the touch matte eco-material, stylish cork elements and special eco-packaging for aesthetic pleasure from cooking and caring for nature. The blender is made in France.",
+          "Unique eco-design",
+          "This is an example description. Here is a soft-touch matte eco-material, stylish cork elements and special eco-packaging for aesthetic pleasure from cooking and caring for nature. The blender is made in France.",
+          "Smaller font and more content."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of",
+            "Blender",
+            "Number of speeds",
+            "2",
+            "Functional features of food grinders",
+            "Pulse mode, Ice crushing",
+            "Brand",
+            "Moulinex",
+            "Blender/combine type",
+            "Stationary"
           ]
         }
       }

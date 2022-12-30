@@ -225,7 +225,7 @@
       "second": "./assets/img/6105623973.webp",
       "thirt": "./assets/img/6105623980.webp",
       "fourt": "./assets/img/6105623988.webp"}],
-    "url": "coffee_machine_5",
+    "url": "blender_1",
     "description": [
       {
         "article": [
@@ -254,6 +254,269 @@
             "Moulinex",
             "Blender/combine type",
             "Stationary"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Scarlett SC-HB42F82 hand blender, 900 W, Orange Mood collection, black",
+    "brand": "Scarlett",
+    "type": "blender",
+    "price": 1299,
+    "quantity": 120,
+    "img": [{
+      "first": "./assets/img/6468420277.webp",
+      "second": "./assets/img/6468420279.webp",
+      "thirt": "./assets/img/6149279709.webp",
+      "fourt": "./assets/img/6256696622.webp"}],
+    "url": "blender_2",
+    "description": [
+      {
+        "article": [
+          "The Scarlett SC-HB42F82 blender is able to replace several kitchen appliances at once. Cream, egg whites will be whipped with a whisk, it will also help in kneading light dough, for example, for pancakes. The chopper (500 ml) quickly prepares stir-fried vegetables for soup, meat for casseroles or chopped nuts. The immersion nozzle will make a puree so smooth and tender that it can even be used for baby food. Also, the blender is equipped with a measuring cup, which will facilitate the cooking process. In particularly difficult cases, the Turbo mode will help. With 900 W of power, the most time-consuming tasks will be solved in a matter of seconds. Whisk, mini chopper and immersion tool are dishwasher safe"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of",
+            "Blender",
+            "Number of speeds",
+            "2",
+            "Functional features of food grinders",
+            "Turbo mode",
+            "Brand",
+            "scarlett",
+            "Blender/combine type",
+            "Submersible",
+            "Max. work speed, rpm",
+            "15000",
+            "Productivity, kg/min",
+            "0.3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Immersion blender Redesign 1200 W, black, RDHB001BLK",
+    "brand": "Redesign",
+    "type": "blender",
+    "price": 1549,
+    "quantity": 15,
+    "img": [{
+      "first": "./assets/img/6397011112.webp",
+      "second": "./assets/img/6397007573.webp",
+      "thirt": "./assets/img/6397007573.webp",
+      "fourt": "./assets/img/6397007576.webp"}],
+    "url": "blender_3",
+    "description": [
+      {
+        "article": [
+          "Stylish design",
+          "Ease of use",
+          "Overheat protection",
+          "Nozzle shape eliminates splashing"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of",
+            "Blender",
+            "Protection systems",
+            "Splash protection",
+            "Number of speeds",
+            "five",
+            "Functional features of food grinders",
+            "Turbo mode",
+            "Brand",
+            "REDESIGN",
+            "Blender/combine type",
+            "Submersible"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Moulinex Quickchef 1000W Immersion Blender DD655832, silver",
+    "brand": "Moulinex",
+    "type": "blender",
+    "price": 3870,
+    "quantity": 3,
+    "img": [{
+      "first": "./assets/img/6425196533.webp",
+      "second": "./assets/img/6425196462.webp",
+      "thirt": "./assets/img/6425196466.webp",
+      "fourt": "./assets/img/6425196460.webp"}],
+    "url": "blender_4",
+    "description": [
+      {
+        "article": [
+          "Super powerful 1000W motor, metal body, anti-splatter blender leg shape",
+          "Exclusive Powelix Technology",
+          "Powered by Powelix blade technology, the blender is 30% faster* and more efficient at blending and blending anything from soft and stringy to hard to a smooth, creamy texture!",
+          "High efficiency",
+          "1000 W motor for optimal chop and mixing quality.",
+          "10 speed settings",
+          "Change the speed without turning off the blender with a convenient switch.",
+          "Splash protection",
+          "The special shape of the immersion part of the blender protects you and the work surface from splashes during operation.",
+          "Soft non-slip handle",
+          "Ergonomic design for comfortable operation of the blender even with wet hands.",
+          "Beaker",
+          "Includes 800ml measuring cup for precise preparation.",
+          "Chopper",
+          "The kit includes a 500 ml chopper for fast and precise grinding of products.",
+          "Corolla",
+          "The kit includes a whisk for efficient whipping and mixing.",
+          "Homogeneous creamy texture",
+          "The blender blade creates a whirlwind that draws the ingredients under the blades and ensures even blending to a smooth consistency.",
+          "Grind even the toughest ingredients",
+          "Hardened stainless steel blades with an optimized cutting angle handle even hard foods with ease.",
+          "Perfect grinding",
+          "Sharp blades perfectly grind and mix any ingredients."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of",
+            "Blender",
+            "Number of speeds",
+            "10",
+            "Functional features of food grinders",
+            "Turbo mode, Smooth speed change",
+            "Brand",
+            "Moulinex",
+            "Series",
+            "Moulinex Quickchef",
+            "Blender/combine type",
+            "Submersible"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Submersible blender Vitek VT-3425, black",
+    "brand": "Vitek",
+    "type": "blender",
+    "price": 1809,
+    "quantity": 1,
+    "img": [{
+      "first": "./assets/img/6068928267.webp",
+      "second": "./assets/img/6068928366.webp",
+      "thirt": "./assets/img/6068928370.webp",
+      "fourt": "./assets/img/6068928384.webp"}],
+    "url": "blender_5",
+    "description": [
+      {
+        "article": [
+          "Blender set VITEK VT-3425 will become an indispensable tool for every modern housewife. The appliance comes with a mixing glass with a capacity of 700 ml and a bowl for grinding (450 ml). The immersion part of the blender and whisk, as well as the knives, are made of high-quality stainless steel, which does not affect the taste of the products and guarantees a long service life for the device.",
+          "The immersion blender is able to work in a particularly efficient TURBO mode, whipping, for example, butter in 60 seconds and kneading dough in 2 minutes.",
+          "Buying a VITEK blender set means giving yourself or a loved one the freedom of culinary creativity. With VITEK, living in a big city is easy and comfortable!"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Type of",
+            "Blender",
+            "Number of speeds",
+            "five",
+            "Functional features of food grinders",
+            "Turbo mode, Smooth speed change",
+            "Brand",
+            "Vitek",
+            "Blender/combine type",
+            "Submersible"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Household vacuum cleaner Kitfort KT-548, turquoise, metallic gray",
+    "brand": "Kitfort",
+    "type": "vacuum cleaner",
+    "price": 7290,
+    "quantity": 10,
+    "img": [{
+      "first": "./assets/img/6006361263.webp",
+      "second": "./assets/img/6006361269.webp",
+      "thirt": "./assets/img/6006361274.webp",
+      "fourt": "./assets/img/6006361277.webp"}],
+    "url": "vacuum_cleaner_1",
+    "description": [
+      {
+        "article": [
+          "Vacuum cleaner designed for both regular cleaning of the house and for cleaning the premises from small construction debris (wood chips, sawdust, etc.). Equipped with a large steel dust box that can hold a lot of debris, and the design of the vacuum cleaner can suck up liquids and wet debris.",
+          "Household vacuum cleaners are equipped with rollers for easy movement, as well as a carrying handle. On the body there are special holders for nozzles and accessories so that they are always at your fingertips. If the hose of the vacuum cleaner is connected to the outlet, the device starts to blow.",
+          "This is useful if you need to blow out a laptop or computer system unit, blow dust off house plants, blow out a ventilation grill or mosquito net on a window, and blow off construction dust during repairs."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Cleaning type",
+            "Dry",
+            "Type of dust collector",
+            "Container",
+            "Power consumption, W",
+            "1000",
+            "Dust collector volume, l",
+            "twenty",
+            "Filter type",
+            "HEPA filter",
+            "Max. noise level, dB",
+            "78",
+            "Battery operation",
+            "No"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Vacuum cleaner Ginzzu VS420 black-blue 2000W, 3L with blowing function",
+    "brand": "Ginzzu",
+    "type": "vacuum cleaner",
+    "price": 4193,
+    "quantity": 10,
+    "img": [{
+      "first": "./assets/img/1022042613.webp",
+      "second": "./assets/img/1022042616.webp",
+      "thirt": "./assets/img/1022042615.webp",
+      "fourt": "./assets/img/1022042617.webp"}],
+    "url": "vacuum_cleaner_2",
+    "description": [
+      {
+        "article": [
+          "The Ginzzu VS420 vacuum cleaner is designed for dry cleaning. To handle this flawlessly, it is equipped with a cyclone filter, a fine filter and a three-liter plastic dust container. Removing the dust collector, washing it from dust and installing it back is not difficult. The dust suction power of 360W is combined with a maximum power consumption of 2000W. The power regulator is located on the body of the device. As advantages of the presented vacuum cleaner, it is necessary to note three-stage filtration, the presence of a blowing function, automatic winding of the power cord, the presence of a foot switch and the option of vertical parking of the telescopic tube of the device. All these advantages of the device allow it to effectively deal with dust in the house. Ginzzu VS420 is equipped with a 4.5 m power cord and 2 nozzles (flat and crevice). The noise level of the device does not exceed 76 dB."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Cleaning type",
+            "Dry",
+            "Suction power, W",
+            "360",
+            "Type of dust collector",
+            "Container",
+            "Power consumption, W",
+            "200",
+            "Dust collector volume, l",
+            "3",
+            "Filter type",
+            "Standard filter",
+            "Max. noise level, dB",
+            "76",
+            "Battery operation",
+            "No"
           ]
         }
       }

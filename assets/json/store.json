@@ -6,6 +6,7 @@
     "type": "coffee machine",
     "price": 41900,
     "quantity": 6,
+    "rating": 4.3,
     "img": [{
       "first": "./assets/img/6295671364.webp",
       "second": "./assets/img/6295598320.webp",
@@ -53,6 +54,7 @@
     "type": "coffee machine",
     "price": 14999,
     "quantity": 14,
+    "rating": 3.8,
     "img": [{
       "first": "./assets/img/6495376593.webp",
       "second": "./assets/img/6484490137.webp",
@@ -98,6 +100,7 @@
     "type": "coffee machine",
     "price": 6474,
     "quantity": 21,
+    "rating": 4.1,
     "img": [{
       "first": "./assets/img/6418257213.webp",
       "second": "./assets/img/6418257217.webp",
@@ -142,6 +145,7 @@
     "type": "coffee machine",
     "price": 35900,
     "quantity": 3,
+    "rating": 3.3,
     "img": [{
       "first": "./assets/img/6099151443.webp",
       "second": "./assets/img/6099151444.webp",
@@ -182,6 +186,7 @@
     "type": "coffee machine",
     "price": 54999,
     "quantity": 10,
+    "rating": 4.5,
     "img": [{
       "first": "./assets/img/6356511976.webp",
       "second": "./assets/img/6356511972.webp",
@@ -220,6 +225,7 @@
     "type": "blender",
     "price": 6190,
     "quantity": 50,
+    "rating": 4.8,
     "img": [{
       "first": "./assets/img/6288015592.webp",
       "second": "./assets/img/6105623973.webp",
@@ -266,6 +272,7 @@
     "type": "blender",
     "price": 1299,
     "quantity": 120,
+    "rating": 3,
     "img": [{
       "first": "./assets/img/6468420277.webp",
       "second": "./assets/img/6468420279.webp",
@@ -306,6 +313,7 @@
     "type": "blender",
     "price": 1549,
     "quantity": 15,
+    "rating": 3.8,
     "img": [{
       "first": "./assets/img/6397011112.webp",
       "second": "./assets/img/6397007573.webp",
@@ -347,6 +355,7 @@
     "type": "blender",
     "price": 3870,
     "quantity": 3,
+    "rating": 4.3,
     "img": [{
       "first": "./assets/img/6425196533.webp",
       "second": "./assets/img/6425196462.webp",
@@ -407,6 +416,7 @@
     "type": "blender",
     "price": 1809,
     "quantity": 1,
+    "rating": 2,
     "img": [{
       "first": "./assets/img/6068928267.webp",
       "second": "./assets/img/6068928366.webp",
@@ -445,6 +455,7 @@
     "type": "vacuum cleaner",
     "price": 7290,
     "quantity": 10,
+    "rating": 4.3,
     "img": [{
       "first": "./assets/img/6006361263.webp",
       "second": "./assets/img/6006361269.webp",
@@ -487,6 +498,7 @@
     "type": "vacuum cleaner",
     "price": 4193,
     "quantity": 10,
+    "rating": 3.3,
     "img": [{
       "first": "./assets/img/1022042613.webp",
       "second": "./assets/img/1022042616.webp",
@@ -522,4 +534,419 @@
       }
     ]
   },
+  {
+    "id": 13,
+    "name": "Upright vacuum cleaner Deerma DX115C",
+    "brand": "Deerma",
+    "type": "vacuum cleaner",
+    "price": 1790,
+    "quantity": 10,
+    "rating": 3.9,
+    "img": [{
+      "first": "./assets/img/6389391291.webp",
+      "second": "./assets/img/6493293259.webp",
+      "thirt": "./assets/img/6493293468.webp",
+      "fourt": "./assets/img/6493293266.webp"}],
+    "url": "vacuum_cleaner_3",
+    "description": [
+      {
+        "article": [
+          "Top 8 reasons to fall in love with him",
+          "The vacuum cleaner improved on 8 indicators will not leave a single corner where dust could hide.",
+          "luxury color",
+          "Bold black with luxurious gold accents, the sleek curves express the unique philosophy of the modern home.",
+          "For floors and any other surfaces",
+          "Using a vacuum cleaner with or without an extension rod allows you to quickly change between cleaning floors or surfaces in the living room, bedroom, kitchen and other rooms.",
+          "Floor cleaning mode",
+          "Familiar form factor for floor cleaning",
+          "Mobile manual mode",
+          "Will not leave a single place for dust and dirt",
+          "3 main nozzles for deep cleaning",
+          "In the cracks of the sofa, under the table or behind the cabinet - the vacuum cleaner will get everywhere and get rid of dust",
+          "Washable and reusable filter",
+          "To keep your home clean and save on consumables, the dust box, HEPA filter and filter sponge of the vacuum cleaner can be removed and rinsed with water, returning them to their former cleaning efficiency.",
+          "Adapt quickly to new challenges",
+          "3 brushes included",
+          "Together with a vacuum cleaner, you can not worry about the cleanliness of the house. Parents will be happy with the cleanliness of cleaning, and children - its high speed.",
+          "Floor nozzle for large surfaces",
+          "Easy to move, absorbs dust well. Suitable for wood, ceramics, carpets and other surfaces.",
+          "Crevice nozzle with spout only 1 cm wide.",
+          "Dust and dirt quickly accumulate between the cushions of the sofa, but the crevice nozzle will get to it even there.",
+          "Brush attachment",
+          "A soft brush is suitable for taking care of fabric items, freeing them even from deep-seated dirt.",
+          "Three-stage deep filtration system",
+          "The integrated three-stage air filtration system consists of a dust collector, a HEPA filter and a filter sponge, it gradually cleans the air passing through it, trapping even the smallest dust particles.",
+          "Powerful pure copper motor",
+          "The powerful electric motor of the vacuum cleaner produces tens of thousands of revolutions every minute, setting the fan in motion to maintain high suction power.",
+          "Compact and flexible for easy storage",
+          "The vacuum cleaner achieves small body dimensions without sacrificing performance, so it does not require a lot of storage space, while continuing to delight with high power during operation.",
+          "Design with many details in mind",
+          "Specifications",
+          "Lightweight and easy to assemble"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Cleaning type",
+            "Dry",
+            "Type of dust collector",
+            "Container",
+            "Power consumption, W",
+            "600",
+            "Dust collector volume, l",
+            "1.2",
+            "Filter type",
+            "HEPA filter",
+            "Max. noise level, dB",
+            "70",
+            "Battery operation",
+            "No"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Household vacuum cleaner Midea VCC350B02, 1500 W, container 1.5 l, grey/blue",
+    "brand": "Midea",
+    "type": "vacuum cleaner",
+    "price": 3290,
+    "quantity": 10,
+    "rating": 4.2,
+    "img": [{
+      "first": "./assets/img/1035626237.webp",
+      "second": "./assets/img/1035626238.webp",
+      "thirt": "./assets/img/1035626239.webp",
+      "fourt": "./assets/img/1035626240.webp"}],
+    "url": "vacuum_cleaner_4",
+    "description": [
+      {
+        "article": [
+          "The container vacuum cleaner Midea VCC350B02 has all the characteristics of a modern vacuum cleaner. The vacuum cleaner is intended for cleaning of dust and pollution from surfaces due to absorption by a stream of air.",
+          "Dust and dirt accumulate in a container from which they must be removed regularly: the Cyclone system ensures effective cleaning without the use of a dust bag. Highly efficient 5-stage filtration system. Removable, washable HEPA filter. Metal telescopic tube with length fixation.",
+          "In combination with suction power (180 W) and a large container volume (1.5 l), it is perfect for cleaning large rooms and various floor coverings.",
+          "Power adjustment is located on the handle of the vacuum cleaner. Warranty period 1 year."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Suction power, W",
+            "280",
+            "Cleaning type",
+            "Dry",
+            "Type of dust collector",
+            "Container",
+            "Power consumption, W",
+            "1500",
+            "Dust collector volume, l",
+            "1.5",
+            "Filter type",
+            "HEPA filter",
+            "Max. noise level, dB",
+            "78",
+            "Battery operation",
+            "No"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Vacuum cleaner with container Tefal Compact Power XXL TW4853EA",
+    "brand": "Tefal",
+    "type": "vacuum cleaner",
+    "price": 10550,
+    "quantity": 10,
+    "rating": 4.9,
+    "img": [{
+      "first": "./assets/img/6454230104.webp",
+      "second": "./assets/img/6306781909.webp",
+      "thirt": "./assets/img/6306781899.webp",
+      "fourt": "./assets/img/6306781904.webp"}],
+    "url": "vacuum_cleaner_5",
+    "description": [
+      {
+        "article": [
+          "The Tefal Compact Power XXL impresses with its efficiency and compact, ergonomic design and is perfect for efficient daily cleaning. Ideal for both small and large spaces, the 2.5L dust container is enough for several thorough cleanings and is easy to empty when full. The energy-efficient EffiTech motor and advanced cyclone technology guarantee high suction power and consistent efficiency day after day.",
+          "EffiWatt Technology",
+          "Cleaning performance similar to a vacuum cleaner with 2100 W power thanks to the EffiWatts technology motor, which guarantees high performance with reduced energy consumption",
+          "Impressive capacity",
+          "Handy 2.5L container is great for multiple thorough cleanings around the house",
+          "Compact body",
+          "Impressive power in a compact body - the vacuum cleaner is comfortable to use and easy to store even in tight spaces",
+          "Maximum efficiency",
+          "The energy-efficient EffiTech motor guarantees high cleaning performance with reduced energy consumption for perfect cleaning throughout the house without overpaying for electricity",
+          "Convenient dust container",
+          "The container is equipped with the Clean Express system for easier emptying without contact with dust in just 3 steps",
+          "Cyclone technology",
+          "Advanced cyclone technology guarantees maximum cleaning of the intake air from dust and dirt and a long, flawless service life of the vacuum cleaner",
+          "High Efficiency Nozzle",
+          "Versatile high-performance nozzle glides effortlessly over any floor covering from parquet to carpet and effectively picks up any dust and dirt",
+          "Long power cord",
+          "The 6.2 m power cord gives the vacuum cleaner an 8 m range for comfortable cleaning without the need to switch between outlets",
+          "Repaired product",
+          "Designed for ease of repair, Economical and fast delivery of spare parts for products older than 10 years, 6500 repair centers worldwide"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Cleaning type",
+            "Dry",
+            "Suction power, W",
+            "420",
+            "Type of dust collector",
+            "Container",
+            "Power consumption, W",
+            "550",
+            "Dust collector volume, l",
+            "2.5",
+            "Filter type",
+            "Cyclone filter",
+            "Max. noise level, dB",
+            "75",
+            "Battery operation",
+            "No"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Clothes iron VLK Vesuvio-5400 steam boost up to 350 g/min / vertical steaming / dry ironing / auto-off / self-cleaning / anti-scale",
+    "brand": "VLK",
+    "type": "iron",
+    "price": 5261,
+    "quantity": 10,
+    "rating": 4.8,
+    "img": [{
+      "first": "./assets/img/6407852253.webp",
+      "second": "./assets/img/6493135969.webp",
+      "thirt": "./assets/img/6418306145.webp",
+      "fourt": "./assets/img/6407852245.webp"}],
+    "url": "iron_1",
+    "description": [
+      {
+        "article": [
+          "This model of the VLK Vesuvio-5400 electric steam generator has all the necessary set of functions so that you do not experience problems when ironing your clothes or linen. Power 2400 W, steam pressure up to 4 bar, constant steam supply up to 130 g/min, powerful steam boost up to 350 g/min - these figures indicate that you do not have to think whether you can iron a crease in the fabric or not. With such indicators, you can iron a whole stack of bed linen at a time.",
+          "Text description of the image",
+          "The volume of the water tank of the VLK Vesuvio-5400 electric steam generator is an impressive 2 liters, it also provides for filling with water during ironing. You do not have to turn off the device, waste time to go to add water, now everything has become simple. The ceramic coating contributes to a better glide over the surface of the fabric, compared to other types of coatings.",
+          "For the convenience of carrying and storing the steam generator, a system for fixing the iron on the body of the steam generator and a storage system for the power cord are provided.",
+          "Text description of the image",
+          "If you suddenly forgot to turn off the device, then it has an auto-off function that will turn off the power after a while if you do not use it. The anti-scale function and the self-cleaning function will extend the life of the VLK Vesuvio-5400 electric steam generator."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Power, W",
+            "2400",
+            "Steam boost, g/min",
+            "350",
+            "Steam supply, g/min",
+            "130",
+            "Steam pressure, bar",
+            "4",
+            "sole cover",
+            "ceramic",
+            "Sole properties",
+            "Scratch Resistant, Non-stick",
+            "Brand",
+            "VLK"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Iron Tefal Express Steam FV2837E0, white, blue",
+    "brand": "Tefal",
+    "type": "iron",
+    "price": 2830,
+    "quantity": 10,
+    "rating": 4.6,
+    "img": [{
+      "first": "./assets/img/6058197519.webp",
+      "second": "./assets/img/6058197521.webp",
+      "thirt": "./assets/img/6058197527.webp",
+      "fourt": "./assets/img/6058197534.webp"}],
+    "url": "iron_2",
+    "description": [
+      {
+        "article": [
+          "The Express Steam iron is designed for fast and comfortable ironing and shows a long and reliable service. With 2400W of power, this iron delivers a steam boost of 165g/min and helps you tackle stubborn creases in no time. The iron is equipped with a smooth ceramic soleplate and a large water tank that guarantee comfortable use every time.",
+          "20% more steam*",
+          "The Express Steam iron produces more steam for faster and easier ironing.",
+          "Power 2400 W",
+          "High power for quick heating of the soleplate and efficient ironing.",
+          "Quality ironing",
+          "Continuous steam up to 35 g/min for fast and effective garment care and perfect results.",
+          "Large water tank",
+          "The 270 ml water tank has a wide opening for easy filling.",
+          "Ceramic sole",
+          "The outsole is made in a special design: ceramic coating and soft edges guarantee an easy and smooth glide.",
+          "Stain protection",
+          "The drip-stop system prevents the formation of dirty stains on fabrics, keeping clothes clean during ironing.",
+          "Powerful steam burst",
+          "Steam boost at 165g/min helps to remove stubborn creases and thick fabrics.",
+          "Repaired product",
+          "Designed with ease of repair in mind. Economical and fast delivery of spare parts for products older than 10 years, 6500 repair centers worldwide."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Power, W",
+            "2400",
+            "Steam boost, g/min",
+            "165",
+            "Steam supply, g/min",
+            "35",
+            "sole cover",
+            "ceramic",
+            "Sole properties",
+            "non-stick",
+            "Brand",
+            "Tefal"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Iron Polaris PIR 2483K, white, blue",
+    "brand": "Polaris",
+    "type": "iron",
+    "price": 2299,
+    "quantity": 10,
+    "rating": 4.2,
+    "img": [{
+      "first": "./assets/img/6338680415.webp",
+      "second": "./assets/img/6477452440.webp",
+      "thirt": "./assets/img/6482346649.webp",
+      "fourt": "./assets/img/6482346694.webp"}],
+    "url": "iron_3",
+    "description": [
+      {
+        "article": [
+          "1. Device - 1 pc.",
+          "2. Cup for water - 1 pc.",
+          "3. Instruction manual - 1 pc.",
+          "4. Warranty card - 1 pc."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Power, W",
+            "2400",
+            "Steam boost, g/min",
+            "145",
+            "Steam supply, g/min",
+            "45",
+            "sole cover",
+            "ceramic",
+            "Sole properties",
+            "scratch resistant",
+            "Brand",
+            "Polaris"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Iron with steam generator for clothes ENDEVER Delta-400 steam boost up to 400 g/min / dry ironing / vertical steaming / auto-off / anti-scale",
+    "brand": "ENDEVER",
+    "type": "iron",
+    "price": 10111,
+    "quantity": 10,
+    "rating": 4.2,
+    "img": [{
+      "first": "./assets/img/6416282726.webp",
+      "second": "./assets/img/6422807398.webp",
+      "thirt": "./assets/img/6416282724.webp",
+      "fourt": "./assets/img/6416282721.webp"}],
+    "url": "iron_4",
+    "description": [
+      {
+        "article": [
+          "We present to your attention the ENDEVER DELTA-400 electric steam generator, which will make your clothes perfectly smooth without the risk of burning the fabric. The powerful steam generator creates a pressure of up to 7 bar, which allows you to make the care of your things more convenient and faster, as it is able to iron a pile of laundry at a time with such a phenomenal steam boost of 400 g / min. The constant steam output is up to 140 g/min, which is much more than a conventional iron.",
+          "Text description of the image",
+          "The volume of the removable water tank is 1.7 liters, which will allow you to iron your clothes without having to think about adding water. There is also a water shortage warning so you don't miss the moment of topping up the water. Thanks to the ceramic coating of the soleplate of the iron, the sliding will be easy and effortless compared to the steel coating of the soleplate of the iron.",
+          "Text description of the image",
+          "For convenient storage and transportation of the ENDEVER DELTA-400 electric steam generator, a system for fixing the iron to the body of the steam generator and a storage system for the mains power cable are provided.",
+          "For a more professional approach to ironing, the steam generator & ENDEVER DELTA-400 provides: ECO mode, 2 selections of the optimal temperature for all types of fabric, vertical steaming function.",
+          "Text description of the image",
+          "The auto-off function will take care of your safety if you suddenly forget to turn off the device. It also has an anti-calc feature to ensure powerful and continuous steam flow."
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Power, W",
+            "2600",
+            "Steam boost, g/min",
+            "400",
+            "Steam supply, g/min",
+            "140",
+            "Steam pressure, bar",
+            "7",
+            "sole cover",
+            "ceramic",
+            "Sole properties",
+            "Scratch Resistant, Non-stick",
+            "Brand",
+            "Endever"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": 20,
+    "name": "Centek ORANGE iron 3000 W, ceramic soleplate, powerful steam boost 195 g/min., self-cleaning function",
+    "brand": "Centek",
+    "type": "iron",
+    "price": 2350,
+    "quantity": 10,
+    "rating": 5,
+    "img": [{
+      "first": "./assets/img/6281203828.webp",
+      "second": "./assets/img/6281203834.webp",
+      "thirt": "./assets/img/6281203833.webp",
+      "fourt": "./assets/img/6281203829.webp"}],
+    "url": "iron_5",
+    "description": [
+      {
+        "article": [
+          "The Centek CT-2361 iron with ceramic coated soles provides easy and efficient ironing. Inside the case there is a capacious water tank, which makes it possible to iron using steam without being distracted by topping up the liquid. Continuous steam mode and steam boost (195 g/min) will help you tackle the most stubborn creases. Thanks to the high power, you can start working within a few seconds after switching on the device. Power of 3000 W provides a large supply of steam. A powerful burst of concentrated steam ensures fast and effective ironing of intricate details such as cuffs, collars, pockets, zips and buttons. The convenient regulator of the modes allows to pick up necessary temperature for a certain type of fabric. The presence of a ball mount simplifies the operation of the device. The atomizer produces a fine mist that evenly moisturizes the fabric and makes it easier to iron out wrinkles. Thanks to the ergonomically designed comfortable handle of the iron, you will be less tired. The narrow nose of the iron will perfectly cope with smoothing hard-to-reach places near buttons and small details.",
+          "Power 3000 W",
+          "Drip-stop function",
+          "Self cleaning function",
+          "Ceramic coated outsole",
+          "Scale protection",
+          "Powerful steam boost - 195 g/min.",
+          "Dry ironing / steam"
+        ],
+        "section": {
+          "h3": "Main",
+          "desc": [
+            "Power, W",
+            "3000",
+            "Steam boost, g/min",
+            "195",
+            "Steam supply, g/min",
+            "195",
+            "sole cover",
+            "ceramic",
+            "Sole properties",
+            "non-stick",
+            "Brand",
+            "Centek"
+          ]
+        }
+      }
+    ]
+  }
 ]

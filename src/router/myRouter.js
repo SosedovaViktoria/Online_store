@@ -67,7 +67,7 @@ function resolveRoute(route) {
     }
 }
 
-function router(evt) {
+function router() {
     let url = window.location.hash.slice(1) || '/';
     let route = resolveRoute(url);
 

@@ -1,13 +1,39 @@
+export default function() {
+    interface JSON {
+        id: number,
+        name: string,
+        brand: string,
+        type: string,
+        price: number,
+        quantity: number,
+        rating: number,
+        img: [{
+        first: string,
+        second: string,
+        thirt: string,
+        fourt: string}],
+        url: string,
+        description: [
+        {
+            article: [string],
+            section: {
+            h3: string,
+            desc: [string]
+            }
+        }
+        ]
+    }
+
 const routes = {};
 const templates = {};
 
-let app_div = document.getElementById('app');
+const app_div = document.getElementById('app');
 
 //Прототип объекта с шаблонами страниц
 
 const routing = [{
     'temlate': template('home', function(){
-        pageTemplate('#/about', 'About', '<h1>Home</h1>', undefined);
+        pageTemplate('#/about', 'About', '<h1>Home</h1>');
     }),
     'route': route('/', 'home')
 },
@@ -28,10 +54,10 @@ const routing = [{
 async function parseJson() {
     const response = await fetch('../assets/json/store.json')
     const data = await response.json()
-    data.forEach(elem => {
+    data.forEach((elem : JSON) => {
         const neewElem = {
             'temlate': template(elem.name, function(){
-                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>');
+                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', undefined);
             }),
             'route': route('/'.concat(elem.url), elem.name)
         }
@@ -42,9 +68,9 @@ async function parseJson() {
 parseJson();
 //Функция генерирует контент из основных элементов
 
-function pageTemplate(page, text, html, callback) {
-    let div = document.createElement('div');
-    let link = document.createElement('a');
+function pageTemplate(page : string, text : string, html : string, callback?  : DocumentFragment) {
+    const div = document.createElement('div');
+    const link = document.createElement('a');
     link.href = page;
     link.innerText = text;
 
@@ -52,18 +78,16 @@ function pageTemplate(page, text, html, callback) {
     if(callback) div.appendChild(callback)
     div.appendChild(link);
 
-    app_div.innerHTML = div.outerHTML;
+    app_div!.innerHTML = div.outerHTML;
 }
 
 //Функция связывает пути в шаблоном
 
-function route (path, template) {
+function route (path : string, template : string) : void {
     if (typeof template === 'function') {
-        console.log(template)
         return routes[path] = template;
     }
     else if (typeof template === 'string') {
-        console.log(template)
         return routes[path] = templates[template];
     } else {
         return;
@@ -72,7 +96,7 @@ function route (path, template) {
 
 //Функция - механизм шаблонов
 
-function template (name, templateFunction) {
+function template (name : string, templateFunction : object) {
     return templates[name] = templateFunction;
 }
 
@@ -83,7 +107,7 @@ routing.forEach(elem => {
     elem.route;
 })
 
-function resolveRoute(route) {
+function resolveRoute(route : string) {
     try {
         return routes[route];
     } catch (e) {
@@ -92,12 +116,12 @@ function resolveRoute(route) {
 }
 
 function router() {
-    let url = window.location.hash.slice(1) || '/';
+    const url = window.location.hash.slice(1) || '/';
     const error = '/404';
-    let route = resolveRoute(url) || resolveRoute(error);
+    const route = resolveRoute(url) || resolveRoute(error);
 
     route();
 }
 
 window.addEventListener('load', router);
-window.addEventListener('hashchange', router);
+window.addEventListener('hashchange', router);}

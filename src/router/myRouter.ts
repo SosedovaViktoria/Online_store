@@ -1,28 +1,4 @@
-export default function() {
-    interface JSON {
-        id: number,
-        name: string,
-        brand: string,
-        type: string,
-        price: number,
-        quantity: number,
-        rating: number,
-        img: [{
-        first: string,
-        second: string,
-        thirt: string,
-        fourt: string}],
-        url: string,
-        description: [
-        {
-            article: [string],
-            section: {
-            h3: string,
-            desc: [string]
-            }
-        }
-        ]
-    }
+import * as JSONFiles from '../assets/json/store.json';
 
 const routes = {};
 const templates = {};
@@ -51,10 +27,8 @@ const routing = [{
 } 
 ];
 
-async function parseJson() {
-    const response = await fetch('../assets/json/store.json')
-    const data = await response.json()
-    data.forEach((elem : JSON) => {
+function parseJson() {
+    JSONFiles.forEach((elem) => {
         const neewElem = {
             'temlate': template(elem.name, function(){
                 pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', undefined);
@@ -119,9 +93,8 @@ function router() {
     const url = window.location.hash.slice(1) || '/';
     const error = '/404';
     const route = resolveRoute(url) || resolveRoute(error);
-
     route();
 }
 
-window.addEventListener('load', router);
+export default function() { window.addEventListener('load', router);
 window.addEventListener('hashchange', router);}

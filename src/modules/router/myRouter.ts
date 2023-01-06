@@ -1,4 +1,5 @@
-import * as JSONFiles from '../assets/json/store.json';
+import JSONFiles from '../../assets/json/store.json';
+import createPage from '../product/productPage'
 
 const routes = {};
 const templates = {};
@@ -31,7 +32,7 @@ function parseJson() {
     JSONFiles.forEach((elem) => {
         const neewElem = {
             'temlate': template(elem.name, function(){
-                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', undefined);
+                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', createPage(elem));
             }),
             'route': route('/'.concat(elem.url), elem.name)
         }
@@ -42,14 +43,14 @@ function parseJson() {
 parseJson();
 //Функция генерирует контент из основных элементов
 
-function pageTemplate(page : string, text : string, html : string, callback?  : DocumentFragment) {
+function pageTemplate(page : string, text : string, html : string, callback?  : void) {
     const div = document.createElement('div');
     const link = document.createElement('a');
     link.href = page;
     link.innerText = text;
 
     div.innerHTML = html;
-    if(callback) div.appendChild(callback)
+    if(callback) callback;
     div.appendChild(link);
 
     app_div!.innerHTML = div.outerHTML;

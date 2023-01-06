@@ -2,15 +2,12 @@
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const EslingPlugin = require("eslint-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV == "production";
 
-const stylesHandler = MiniCssExtractPlugin.loader;
-
 const config = {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
   },
@@ -25,8 +22,6 @@ const config = {
 
     new EslingPlugin({ extensions: "ts" }),
 
-    new MiniCssExtractPlugin(),
-
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
@@ -39,14 +34,40 @@ const config = {
       },
       {
         test: /\.css$/i,
-        use: [stylesHandler, "css-loader"],
+        use: [
+          {
+            loader: "css-loader",
+            options: {
+              url: false
+            }
+          },
+        ],
       },
       {
         test: /\.s[ac]ss$/i,
-        use: [stylesHandler, "css-loader", "sass-loader"],
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: () => [
+                  require('autoprefixer')
+                ]
+              }
+            }
+          },
+          {
+            loader: "sass-loader"
+          }],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|webp)$/i,
         type: "asset",
       },
 

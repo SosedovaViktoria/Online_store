@@ -1,28 +1,5 @@
-export default function() {
-    interface JSON {
-        id: number,
-        name: string,
-        brand: string,
-        type: string,
-        price: number,
-        quantity: number,
-        rating: number,
-        img: [{
-        first: string,
-        second: string,
-        thirt: string,
-        fourt: string}],
-        url: string,
-        description: [
-        {
-            article: [string],
-            section: {
-            h3: string,
-            desc: [string]
-            }
-        }
-        ]
-    }
+import JSONFiles from '../../assets/json/store.json';
+import createPage from '../product/productPage'
 
 const routes = {};
 const templates = {};
@@ -51,13 +28,11 @@ const routing = [{
 } 
 ];
 
-async function parseJson() {
-    const response = await fetch('../assets/json/store.json')
-    const data = await response.json()
-    data.forEach((elem : JSON) => {
+function parseJson() {
+    JSONFiles.forEach((elem) => {
         const neewElem = {
             'temlate': template(elem.name, function(){
-                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', undefined);
+                pageTemplate('#/', 'Home', '<h1>' + elem.name +'</h1>', createPage(elem));
             }),
             'route': route('/'.concat(elem.url), elem.name)
         }
@@ -68,14 +43,14 @@ async function parseJson() {
 parseJson();
 //Функция генерирует контент из основных элементов
 
-function pageTemplate(page : string, text : string, html : string, callback?  : DocumentFragment) {
+function pageTemplate(page : string, text : string, html : string, callback?  : void) {
     const div = document.createElement('div');
     const link = document.createElement('a');
     link.href = page;
     link.innerText = text;
 
     div.innerHTML = html;
-    if(callback) div.appendChild(callback)
+    if(callback) callback;
     div.appendChild(link);
 
     app_div!.innerHTML = div.outerHTML;
@@ -119,9 +94,8 @@ function router() {
     const url = window.location.hash.slice(1) || '/';
     const error = '/404';
     const route = resolveRoute(url) || resolveRoute(error);
-
     route();
 }
 
-window.addEventListener('load', router);
+export default function() { window.addEventListener('load', router);
 window.addEventListener('hashchange', router);}

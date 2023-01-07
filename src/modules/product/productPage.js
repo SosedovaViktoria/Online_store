@@ -100,23 +100,23 @@ const sectionSecond = `<nav class="bg-dark rounded">
   section.innerHTML = sectionFirst;
   nav.append(section);
 
-  for(let i = 0; i < image.length; i++) {
-    const background = document.querySelector(`bg-${i + 1}`);
+  /*for(let i = 0; i < image.length; i++) {
+    const background = section.querySelector(`bg-${i + 1}`);
     background.style.backgroundImage = `url(${image[i]})`;
-  }
+  }*/
 
   section.className = 'h-100';
   section.innerHTML = sectionSecond;
   nav.append(section);
 
-  elem.description.article.forEach(item => {
+  /*elem.description.article.forEach(item => {
     const parent = document.getElementById('nav-home');
     p.innerText(item);
     parent.appendChild(p);
-  })
+  })*/
 
-  const items = elem.description.section.desc;
-  const parent = document.getElementsByTag('h2');
+  const items = elem.description[0].section.desc;
+  /*const parent = document.getElementsByTag('h2');
 
   for(let i = 0; i < items.length; i+=2 ) {
     const first = span.textContent(items[i]);
@@ -124,7 +124,6 @@ const sectionSecond = `<nav class="bg-dark rounded">
     first.append(second);
     div.appendChild(first);
     parent.appendChild(div)
-  }
-
-  document.getElementById('app').appendChild(nav);
+  }*/
+  return nav;
 }

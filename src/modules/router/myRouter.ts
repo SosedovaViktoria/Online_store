@@ -43,14 +43,14 @@ function parseJson() {
 parseJson();
 //Функция генерирует контент из основных элементов
 
-function pageTemplate(page : string, text : string, html : string, callback?  : void) {
+function pageTemplate(page : string, text : string, html : string, callback?  : HTMLElement) {
     const div = document.createElement('div');
     const link = document.createElement('a');
     link.href = page;
     link.innerText = text;
 
     div.innerHTML = html;
-    if(callback) callback;
+    if(callback) div.append(callback);
     div.appendChild(link);
 
     app_div!.innerHTML = div.outerHTML;

@@ -50,10 +50,10 @@ function pageTemplate(page : string, text : string, html : string, callback?  : 
     link.innerText = text;
 
     div.innerHTML = html;
-    if(callback) div.append(callback);
     div.appendChild(link);
 
-    app_div!.innerHTML = div.outerHTML;
+    if(!callback )app_div!.innerHTML = div.outerHTML;
+    if(callback) app_div!.prepend(callback);
 }
 
 //Функция связывает пути в шаблоном

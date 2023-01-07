@@ -1,12 +1,7 @@
 export default function createPage(elem) {
+  const app_div = document.getElementById('app');
   const nav = document.createElement('nav');
   const ol = document.createElement('ol');
-  const li = document.createElement('li');
-  const div = document.createElement('div');
-  const link = document.createElement('a');
-  const p = document.createElement('p');
-  const span = document.createElement('span');
-  const section = document.createElement('section');
   const breadcrumb = ['Main', elem.type, elem.brand, elem.name];
   const image = [elem.img.first, elem.img.second, elem.img.thirt, elem.img.fourt];
   const price = elem.price + ' руб';
@@ -86,28 +81,38 @@ const sectionSecond = `<nav class="bg-dark rounded">
   nav.appendChild(ol);
 
   for (let i = 0; i < breadcrumb.length; i++) {
+    const li = document.createElement('li');
+    const link = document.createElement('a');
     li.classList.add('breadcrumb-item');
-    if(i === 3) {
+    if(i < 3) {
+      const linkText = i === 'Main' ? '/' : breadcrumb[i].charAt(0).toUpperCase() + breadcrumb[i].slice(1);
+      console.log(linkText)
+      link.href = "#";
+      link.textContent = linkText;
+      console.log(link)
+      li.appendChild(link);
+    } else {
       li.classList.add('active');
       li.setAttribute('aria-current', 'page');
+      li.textContent = breadcrumb[i].charAt(0) + breadcrumb[i].slice(1);
     }
-    link.href = i === 'Main' ? '/' : breadcrumb[i].charAt(0) + breadcrumb[i].slice(1);
-    if (i !== 3) li.appendChild(link);
     ol.appendChild(li);
   }
 
-  section.className = 'top-block mb-3';
-  section.innerHTML = sectionFirst;
-  nav.append(section);
+  const section1 = document.createElement('section');
+  section1.className = 'top-block mb-3';
+  section1.innerHTML = sectionFirst;
+  app_div.append(section1);
 
   /*for(let i = 0; i < image.length; i++) {
     const background = section.querySelector(`bg-${i + 1}`);
     background.style.backgroundImage = `url(${image[i]})`;
   }*/
 
-  section.className = 'h-100';
-  section.innerHTML = sectionSecond;
-  nav.append(section);
+  const section2 = document.createElement('section');
+  section2.className = 'h-100';
+  section2.innerHTML = sectionSecond;
+  app_div.append(section2);
 
   /*elem.description.article.forEach(item => {
     const parent = document.getElementById('nav-home');

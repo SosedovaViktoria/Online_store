@@ -3,7 +3,7 @@ export default function createPage(elem) {
   const nav = document.createElement('nav');
   const ol = document.createElement('ol');
   const breadcrumb = ['Main', elem.type, elem.brand, elem.name];
-  const image = [elem.img.first, elem.img.second, elem.img.thirt, elem.img.fourt];
+  const image = [elem.img[0].first, elem.img[0].second, elem.img[0].thirt, elem.img[0].fourt];
   const price = elem.price + ' руб';
   const rating = elem.rating;
 
@@ -61,19 +61,37 @@ export default function createPage(elem) {
   </div>
 </div>`;
 
-const sectionSecond = `<nav class="bg-dark rounded">
+let sectionSecond = `<nav class="bg-dark rounded">
 <div class="nav nav-pills" id="nav-tab" role="tablist">
   <button class="text-light nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Описание</button>
   <button class="text-light nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Характеристики</button>
 </div>
-</nav>
-<div class="tab-content h-100 mt-3" id="nav-tabContent">
-<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-</div>
+</nav>`;
+
+function createElement(tag, classList, id, content, option) {
+  const one = document.createElement(tag);
+  if(classList) one.className = classList;
+  if(id) one.setAttribute('id', id)
+  if(content) one.textContent = content;
+  if(option) {
+    for(let name in option) {
+      one.setAttribute(name, option[name])
+    }
+  }
+/*
 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
   <h2>Main</h2>
-</div>
-</div>`;
+</div></div>*/
+return one;
+}
+
+function addElement(parent, child, method) {
+  if(method === "appendChild") {
+    parent.appendChild(child)
+  } else {
+    parent.append(child)
+  }
+}
 
   nav.classList.add('nav');
   nav.setAttribute('aria-label', 'breadcrumb');
@@ -86,10 +104,8 @@ const sectionSecond = `<nav class="bg-dark rounded">
     li.classList.add('breadcrumb-item');
     if(i < 3) {
       const linkText = i === 'Main' ? '/' : breadcrumb[i].charAt(0).toUpperCase() + breadcrumb[i].slice(1);
-      console.log(linkText)
       link.href = "#";
       link.textContent = linkText;
-      console.log(link)
       li.appendChild(link);
     } else {
       li.classList.add('active');
@@ -105,30 +121,43 @@ const sectionSecond = `<nav class="bg-dark rounded">
   app_div.append(section1);
 
   /*for(let i = 0; i < image.length; i++) {
-    const background = section.querySelector(`bg-${i + 1}`);
+    const background = section1.querySelector(`bg-${i + 1}`);
+    console.log(section1)
     background.style.backgroundImage = `url(${image[i]})`;
   }*/
 
   const section2 = document.createElement('section');
   section2.className = 'h-100';
   section2.innerHTML = sectionSecond;
-  app_div.append(section2);
 
-  /*elem.description.article.forEach(item => {
-    const parent = document.getElementById('nav-home');
-    p.innerText(item);
-    parent.appendChild(p);
-  })*/
+  const div1 = createElement('div', "tab-content h-100 mt-3", "nav-tabContent");
+  addElement(section2, div1, 'appendChild')
+  const div2 = createElement('div', "tab-pane fade show active", "nav-home", undefined, {'role': "tabpanel", 'aria-labelledby': "nav-home-tab", 'tabindex':"0"});
+  addElement(div1, div2, 'appendChild');
+
+  const el = elem.description[0].article;
+    for(let i = 0; i < el.length; i++) {
+      const p = createElement('p', undefined, undefined, el[i]);
+      addElement(div2, p, 'appendChild');
+    }
+  
+  const div3 = createElement('div', "tab-pane fade", "nav-profile", undefined, {'role': "tabpanel", 'aria-labelledby': "nav-profile-tab", 'tabindex':"0"});
+  addElement(div1, div3, 'appendChild')
+  const h2 = createElement('h2', undefined, undefined, 'Main');
+  addElement(div3, h2, 'appendChild')
 
   const items = elem.description[0].section.desc;
-  /*const parent = document.getElementsByTag('h2');
 
   for(let i = 0; i < items.length; i+=2 ) {
-    const first = span.textContent(items[i]);
-    const second = typeof (items[i+1]) === 'undefined' ? span.textContent(items[i+1]) : '';
-    first.append(second);
-    div.appendChild(first);
-    parent.appendChild(div)
-  }*/
+    const first = createElement('span', undefined, undefined, items[i] + ':   ');
+    if(items[i+1]) {
+      const second = createElement('span', undefined, undefined, items[i+1]);
+      addElement(first, second, 'appendChild')
+    }
+    const div4 = createElement('div');
+    addElement(div4, first, 'appendChild')
+    addElement(div3, div4, 'appendChild')
+  }
+  app_div.append(section2);
   return nav;
 }

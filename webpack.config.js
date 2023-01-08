@@ -72,6 +72,13 @@ const config = {
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|webp)$/i,
         type: "asset",
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+          // name: "[name].[ext]",
+          // outputPath: 'assets/images', // Chage this like 'public/images' or any other relative path to the root
+          // useRelativePath: true,
+          }
       },
 
       // Add your rules for custom modules here

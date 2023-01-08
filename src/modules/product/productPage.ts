@@ -1,4 +1,28 @@
-export default function createPage(elem) {
+interface JSON {
+  id: number;
+  name: string;
+  brand: string;
+  type: string;
+  price: number;
+  quantity: number;
+  rating: number;
+  img: {
+      first: string;
+      second: string;
+      thirt: string;
+      fourt: string;
+  }[];
+  url: string;
+  description: {
+      article: string[];
+      section: {
+        h3: string;
+        desc: string[];
+      };
+  }[];
+}
+
+export default function createPage(elem : JSON) {
   const app_div = document.getElementById('app');
   const nav = document.createElement('nav');
   const ol = document.createElement('ol');
@@ -11,13 +35,13 @@ export default function createPage(elem) {
   <div class="col-md-4">
     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleCaptions">
       <div class="carousel-inner">
-        <div class="carousel-item active bg-1">
+        <div class="carousel-item active bg-1" id="bg-1">
         </div>
-        <div class="carousel-item bg-2">
+        <div class="carousel-item bg-2" id="bg-2">
         </div>
-        <div class="carousel-item bg-3">
+        <div class="carousel-item bg-3" id="bg-3">
         </div>
-        <div class="carousel-item bg-4">
+        <div class="carousel-item bg-4" id="bg-4">
         </div>
       </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
       <div class="carousel-indicators">
@@ -29,7 +53,7 @@ export default function createPage(elem) {
     </div>
   </div>
   <div class="col-md-7 flex-column d-flex justify-content-center">
-    <h1 class="h3 pe-5">${breadcrumb[3]}</h1>
+    <h1 class="h3 pe-5" id='h1'>${breadcrumb[3]}</h1>
     <div class="flex-column d-flex align-content-between col-md-8 mt-5">
       <div class="flex-row d-flex justify-content-between align-items-center">
         <div class="star-rating">
@@ -61,31 +85,28 @@ export default function createPage(elem) {
   </div>
 </div>`;
 
-let sectionSecond = `<nav class="bg-dark rounded">
+const sectionSecond = `<nav class="bg-dark rounded">
 <div class="nav nav-pills" id="nav-tab" role="tablist">
   <button class="text-light nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Описание</button>
   <button class="text-light nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Характеристики</button>
 </div>
 </nav>`;
 
-function createElement(tag, classList, id, content, option) {
+function createElement(tag : string, classList? : string, id? : string, content? : string, option? : object) {
   const one = document.createElement(tag);
   if(classList) one.className = classList;
   if(id) one.setAttribute('id', id)
   if(content) one.textContent = content;
   if(option) {
-    for(let name in option) {
+    for(const name in option) {
       one.setAttribute(name, option[name])
     }
   }
-/*
-<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-  <h2>Main</h2>
-</div></div>*/
 return one;
 }
 
-function addElement(parent, child, method) {
+function addElement(parent : HTMLElement, child : HTMLElement, method : string) : void
+{
   if(method === "appendChild") {
     parent.appendChild(child)
   } else {
@@ -103,7 +124,7 @@ function addElement(parent, child, method) {
     const link = document.createElement('a');
     li.classList.add('breadcrumb-item');
     if(i < 3) {
-      const linkText = i === 'Main' ? '/' : breadcrumb[i].charAt(0).toUpperCase() + breadcrumb[i].slice(1);
+      const linkText = breadcrumb[i] === 'Main' ? 'Home' : breadcrumb[i].charAt(0).toUpperCase() + breadcrumb[i].slice(1);
       link.href = "#";
       link.textContent = linkText;
       li.appendChild(link);
@@ -118,13 +139,7 @@ function addElement(parent, child, method) {
   const section1 = document.createElement('section');
   section1.className = 'top-block mb-3';
   section1.innerHTML = sectionFirst;
-  app_div.append(section1);
-
-  /*for(let i = 0; i < image.length; i++) {
-    const background = section1.querySelector(`bg-${i + 1}`);
-    console.log(section1)
-    background.style.backgroundImage = `url(${image[i]})`;
-  }*/
+  app_div!.append(section1);
 
   const section2 = document.createElement('section');
   section2.className = 'h-100';
@@ -158,6 +173,6 @@ function addElement(parent, child, method) {
     addElement(div4, first, 'appendChild')
     addElement(div3, div4, 'appendChild')
   }
-  app_div.append(section2);
+  app_div!.append(section2);
   return nav;
 }

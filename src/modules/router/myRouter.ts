@@ -1,5 +1,6 @@
 import JSONFiles from '../../assets/json/store.json';
 import createPage from '../product/productPage'
+import imgSlider from '../product/backgroundImg'
 
 const routes = {};
 const templates = {};
@@ -28,7 +29,7 @@ const routing = [{
 } 
 ];
 
-function parseJson() {
+function parseJson() : void {
     JSONFiles.forEach((elem) => {
         const neewElem = {
             'temlate': template(elem.name, function(){
@@ -43,7 +44,7 @@ function parseJson() {
 parseJson();
 //Функция генерирует контент из основных элементов
 
-function pageTemplate(page : string, text : string, html : string, callback?  : HTMLElement) {
+function pageTemplate(page : string, text : string, html : string, callback?  : HTMLElement) : void {
     const div = document.createElement('div');
     const link = document.createElement('a');
     link.href = page;
@@ -90,12 +91,26 @@ function resolveRoute(route : string) {
     }
 }
 
-function router() {
+function router() : void {
     const url = window.location.hash.slice(1) || '/';
     const error = '/404';
     const route = resolveRoute(url) || resolveRoute(error);
     route();
 }
 
-export default function() { window.addEventListener('load', router);
+setTimeout(() => {
+    const h1 = document.getElementById('h1')?.textContent;
+    const imgCollection : string[] = []
+    JSONFiles.forEach((elem) => {
+        if(elem.name === h1) {
+            imgCollection.push(elem.img[0].first)
+            imgCollection.push(elem.img[0].second)
+            imgCollection.push(elem.img[0].thirt)
+            imgCollection.push(elem.img[0].fourt)
+        }
+    })
+    imgSlider(imgCollection);
+}, 100);
+
+export default function() : void { window.addEventListener('load', router);
 window.addEventListener('hashchange', router);}

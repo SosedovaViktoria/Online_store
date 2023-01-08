@@ -98,7 +98,7 @@ function router() : void {
     route();
 }
 
-setTimeout(() => {
+const timer = setTimeout(() => {
     const h1 = document.getElementById('h1')?.textContent;
     const imgCollection : string[] = []
     JSONFiles.forEach((elem) => {
@@ -112,5 +112,8 @@ setTimeout(() => {
     imgSlider(imgCollection);
 }, 100);
 
-export default function() : void { window.addEventListener('load', router);
-window.addEventListener('hashchange', router);}
+export default function() : void {
+window.addEventListener('load', router);
+window.addEventListener('hashchange', router);
+clearTimeout(timer);
+}

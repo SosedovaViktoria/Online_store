@@ -5,7 +5,9 @@
     "noImplicitAny": false,
     "module": "commonjs",
     "target": "es5",
-    "allowJs": true
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "files": ["src/index.ts"]
 }

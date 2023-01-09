@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+  background-color: #DCF1DE;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+}
+
+.site_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 2%;
+  width: 270px;
+  height: 80px;
+  border: inset #225f29 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5%;
+  color: rgb(38 130 100 / 82%);
+}
+
+.logo p {
+  margin-top: 2px;
+  margin: 0;
+}
+.logo h1 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;   
+}
+
+ul {
+  list-style: none;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+  align-items: center;
+}
+
+li {
+display: inline-block; 
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo_course {
+  display: block;
+  background-image: url('./src/img/rs_school_js.svg');
+  background-repeat: no-repeat;
+  width: 15%;
+}
+
+.github_field {
+  padding-left: 4%;
+  padding-top: 1%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.search_content {
+  background-color: #DCF1DE;
+  border: 1px solid #000; 
+  min-height: 20px; 
+  display: flex;
+ }
+
+ input[type="search"] {
+  background-color: #DCF1DE;
+  border: none; 
+  outline: none;
+  -webkit-appearance: none; 
+  width: 274px; 
+  vertical-align: middle; 
+ }
+
+ .submit {
+  width: 20px; 
+  height: 20px; 
+  border: none; 
+ }
+
+ .submit img {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .nav_link {
+  padding-left: 25px;
+ }
+
+ .like img {
+  width: 35px;
+  height: 35px;
+ }
